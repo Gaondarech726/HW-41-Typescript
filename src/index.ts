@@ -16,7 +16,7 @@ console.log(nameF);
 console.log(toggle);
 console.log(empty);
 console.log(notInitialize);
-console.log(callback);
+console.log(callback(1));
 
 // № 2
 
