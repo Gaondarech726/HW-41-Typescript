@@ -1,4 +1,5 @@
 "use strict";
+// TASK 1
 // № 1
 let age = 50;
 let nameF = "Max";

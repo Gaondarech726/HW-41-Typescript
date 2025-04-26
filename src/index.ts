@@ -1,3 +1,5 @@
+// TASK 1
+
 // № 1
 
 let age: number = 50;
