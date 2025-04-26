@@ -11,11 +11,20 @@ let callback: (a: number) => number = (a) => {
   return 100 + a;
 };
 
+console.log(age);
+console.log(nameF);
+console.log(toggle);
+console.log(empty);
+console.log(notInitialize);
+console.log(callback);
+
 // № 2
 
 let anything: any = -20;
 anything = "Text";
 anything = {};
+
+console.log(anything);
 
 // № 3
 
@@ -28,9 +37,13 @@ if (typeof some === "string") {
   str = some;
 }
 
+console.log(some);
+
 // № 5
 
 let person: [string, number] = ["Max", 21];
+
+console.log(person);
 
 // № 6
 
@@ -46,9 +59,14 @@ let union: string | number;
 union = "Text";
 union = 10;
 
+console.log(union);
+
 // № 8
 
 let onlyOne: "enable" | "disable";
+onlyOne = "enable";
+
+console.log(onlyOne);
 
 // № 9
 
@@ -63,6 +81,10 @@ function calc(num1: number, num2: number) {
 function customError(): never {
   throw new Error("Error");
 }
+
+console.log(showMessage("Test"));
+console.log(calc(1, 2));
+console.log(customError());
 
 // № 10
 
@@ -91,3 +113,6 @@ const page2: defaultPage = {
   accounts: ["Alex"],
   status: "close",
 };
+
+console.log(page1);
+console.log(page2);
