@@ -58,7 +58,7 @@ function customError() {
 }
 console.log(showMessage("Test"));
 console.log(calc(1, 2));
-console.log(customError());
+console.log(customError);
 const page1 = {
     title: "The awesome page",
     likes: 100,

@@ -84,7 +84,7 @@ function customError(): never {
 
 console.log(showMessage("Test"));
 console.log(calc(1, 2));
-console.log(customError());
+console.log(customError);
 
 // № 10
 
