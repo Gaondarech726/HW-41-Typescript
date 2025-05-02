@@ -86,6 +86,7 @@ console.log(showMessage("Test"));
 console.log(calc(1, 2));
 console.log(customError);
 
+
 // № 10
 
 type defaultPage = {
